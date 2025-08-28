@@ -17,40 +17,6 @@ Cada herói pode **atacar** com base em seu tipo, exibindo mensagens personaliza
 
 ---
 
-## 📂 Estrutura do Código
-
-```javascript
-class heroi {
-    constructor(nomeHeroi, idade, tipo) {
-        this.nomeHeroi = nomeHeroi
-        this.idade = idade
-        this.tipo = tipo
-    }
-
-    atacar() {
-        if (this.tipo === "mago") {
-            let ataque = "magia"
-            console.log(`O ${this.tipo} atacou usando ${ataque}`)
-        } else if (this.tipo === "guerreiro") {
-            let ataque = "espada"
-            console.log(`O ${this.tipo} atacou usando ${ataque}`)
-        } else if (this.tipo === "monge") {
-            let ataque = "artes marciais"
-            console.log(`O ${this.tipo} atacou usando ${ataque}`)
-        } else if (this.tipo === "ninja") {
-            let ataque = "shuriken"
-            console.log(`O ${this.tipo} atacou usando ${ataque}`)
-        }
-    }
-}
-
-let nossoHeroi = new heroi("Jhonata", 20, "mago")
-
-nossoHeroi.atacar();
-```
-
----
-
 ## ✅ Exemplo de Saída
 
 ```bash
