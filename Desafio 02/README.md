@@ -35,52 +35,6 @@ A classificação é feita de acordo com o **saldo de vitórias** (vitórias - d
 
 ---
 
-## 📂 Estrutura do Código
-
-```javascript
-function calculoDeRank(vitoria, derrota) {
-    let resultado = vitoria - derrota
-    return resultado;
-}
-
-function nivelDoRank(calculoDeRank) {
-    if (calculoDeRank <= 10) {
-        return "Ferro"
-    } else if (calculoDeRank >= 11 && calculoDeRank <= 20) {
-        return "Bronze"
-    } else if (calculoDeRank >= 21 && calculoDeRank <= 50) {
-        return "Prata"
-    } else if (calculoDeRank >= 51 && calculoDeRank <= 80) {
-        return "Ouro"
-    } else if (calculoDeRank >= 81 && calculoDeRank <= 90) {
-        return "Diamante"
-    } else if (calculoDeRank >= 91 && calculoDeRank <= 100) {
-        return "Lendário"
-    } else {
-        return "Imortal"
-    }
-}
-
-let resultadoRank = calculoDeRank(52, 16)
-
-console.log("O Herói tem de saldo de " + resultadoRank + " está no nível de " + nivelDoRank(resultadoRank))
-```
-
----
-
-## ▶️ Como Executar o Projeto
-
-1. Crie um arquivo chamado `classificadorDeRank.js` e copie o código acima.
-2. Certifique-se de ter o **Node.js** instalado ([baixe aqui](https://nodejs.org)).
-3. Abra o terminal na pasta onde o arquivo foi salvo.
-4. Execute o comando:
-
-```bash
-node classificadorDeRank.js
-```
-
----
-
 ## ✅ Exemplo de Saída
 
 ```bash
@@ -104,4 +58,4 @@ para simular diferentes cenários de vitórias e derrotas.
 ## 📬 Contato
 
 Criado por **Jhonata Anderson dos Santos Silva**  
-📌 Projeto educacional em JavaScript para treinar lógica de programação.
+📌 Projeto educacional em JavaScript para treinar lógica de programação proporcionado pela DIO.
